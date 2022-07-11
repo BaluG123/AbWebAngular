@@ -1,0 +1,7 @@
+<p>sports works!</p>
+<ul *ngFor="let data of sportsdata" style="list-style-type:none ;">
+  <li>{{data.title}}</li>
+  <li><img src="{{data.image}}" alt=""></li>
+  <li>{{data.body}}</li>
+  <li>{{data.created|date:'fullDate'}}</li>
+</ul>
